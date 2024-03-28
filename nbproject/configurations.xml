@@ -7,6 +7,7 @@
       <itemPath>config.h</itemPath>
       <itemPath>globals.h</itemPath>
       <itemPath>console.h</itemPath>
+      <itemPath>utilities.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -22,8 +23,12 @@
                    projectFiles="true">
       <itemPath>main.c</itemPath>
       <itemPath>console.c</itemPath>
+      <itemPath>utilities.c</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
@@ -147,6 +152,11 @@
         <property key="program-the-device-with-default-config-words" value="false"/>
         <property key="remove-unused-sections" value="true"/>
       </HI-TECH-LINK>
+      <PK5Tool>
+        <property key="memories.programmemory.ranges" value="0-3fff"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/Mike/OneDrive/_Microchip-PIC/DRV8825-PIC16F18146-MAIN/debug/default/default_ptg"/>
+      </PK5Tool>
       <XC8-CO>
         <property key="coverage-enable" value=""/>
         <property key="stack-guidance" value="false"/>

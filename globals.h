@@ -1,6 +1,6 @@
 /* 
  * File:   globals.h
- * Author: cloud
+ * Author: Mike Dawson
  *
  * Created on March 27, 2024
  */
@@ -21,10 +21,13 @@ extern "C" {
 
 #include <xc.h>
 #include <stdint.h>
+#include <stdio.h>
+#include <math.h>
 #include "config.h"
 #include "console.h"
+#include "utilities.h"
 
-#define VERSION_NUMBER "v1.0"
+#define VERSION_NUMBER "v1.1"
 #define FIRMWARE_NAME "DRV8825-PIC16F18146-MAIN"
 
 #define _XTAL_FREQ     4000000
