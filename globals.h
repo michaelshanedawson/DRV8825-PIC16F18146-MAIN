@@ -30,7 +30,8 @@ extern "C" {
 #define VERSION_NUMBER "v1.1"
 #define FIRMWARE_NAME "DRV8825-PIC16F18146-MAIN"
 
-#define _XTAL_FREQ     4000000
+#define _XTAL_FREQ     32000000
+
 
 #endif	/* GLOBALS_H */
 
